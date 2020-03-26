@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+
+    background: #eee;
+}
+
+button {
+    border: none;
+
+    font-weight: bold;
+}
+
+.fat {
+    color: #fff;
+
+    background: #FF5E84;
+}
+
+img, #footer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.hide {
+    display: none;
+}
