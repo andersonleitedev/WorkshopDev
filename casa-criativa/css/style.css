@@ -1,6 +1,4 @@
 body {
-    text-align: center;
-
     background: #eee;
     margin: 0;
 }
@@ -12,21 +10,38 @@ body {
     margin-left: auto;
     display: flex;
  }
+
+ #intro {
+     width: 300px;
+     margin-right: 20px;
+ }
  
 
 button {
     border: none;
-
+    color: #FF5E84;
+    background-color: transparent;
     font-weight: bold;
+    cursor: pointer;
 }
 
-.fat {
+#buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 32px;
+}
+
+button.fat {
     color: #fff;
 
     background: #FF5E84;
 }
 
-img, #footer {
+footer {
+    text-align: center;
+}
+
+img{
     margin-top: 50px;
     margin-bottom: 50px;
 }
