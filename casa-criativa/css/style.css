@@ -177,6 +177,27 @@ form label {
     letter-spacing: 0.8px;
 }
 
+form a {
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #ffffff22;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: end;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 400ms;
+}
+
+form a:hover{
+    background-color: #fff;
+    color: #FF5E84;
+    text-decoration: none;
+}
+
 form button {
     background: #fff;
     margin-top: 32px;
@@ -184,6 +205,9 @@ form button {
     height: 40px;
     border-radius: 6px;
     cursor: pointer;
+    transition: 400ms;
+    grid-column: 2;
+    justify-self: end;
 }
 
 form button:hover {
