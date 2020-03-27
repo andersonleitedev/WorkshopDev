@@ -215,3 +215,8 @@ form button:hover {
     color: #fff;
     text-decoration: none;
 }
+
+#modal.hide {
+    opacity: 0;
+    visibility: hidden;
+}
