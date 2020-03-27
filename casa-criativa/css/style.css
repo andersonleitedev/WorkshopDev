@@ -121,3 +121,66 @@ footer a:hover {
 .idea .description {
     margin: 16px 0;
 }
+
+
+/* Modal */
+
+#modal {
+    background: #FF5E84;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+#modal .content {
+    margin-top: 128px;
+    color: #fff;
+}
+
+#modal .content h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#modal form {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.input-wrapper {
+    margin: 16px 0;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid rgba(141, 25, 52, 0.5);
+    outline: none;
+    font-size: 16px;
+}
+
+form label {
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.8px;
+}
+
+form button {
+    background: #fff;
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0984e3;
+    color: #fff;
+    text-decoration: none;
+}
