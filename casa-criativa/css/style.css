@@ -3,6 +3,20 @@ body {
     margin: 0;
 }
 
+.hide {
+    display: none;
+}
+
+a {
+    color: #FF5E84;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 #container {
     width: 90%;
     max-width: 980px;
@@ -55,21 +69,7 @@ footer {
     text-align: center;
 }
 
-footer a {
-    text-decoration: none;
-    color: #000;
-}
-
-footer a:hover {
-    color: #FF5E84;
-    font-weight: bold;
-}
-
 img{
     margin-top: 50px;
     margin-bottom: 50px;
-}
-
-.hide {
-    display: none;
 }
