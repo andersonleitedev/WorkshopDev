@@ -273,7 +273,6 @@ form button:hover {
 
 section#title {
     text-align: center;
-    margin: 64px 0;
 }
 
 section#title p {
@@ -284,4 +283,20 @@ section#title p {
 section#title h1 {
     margin: 0;
     font-size: 28px;
+}
+
+section#ideas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+section#ideas .idea {
+    margin: 0;
+}
+
+section#title,
+section#ideas,
+footer {
+    margin-top: 64px;
 }
