@@ -1,4 +1,5 @@
 body {
+    font-family: 'Montserrat', sans-serif;
     background: #eee;
     margin: 0;
 }
@@ -15,6 +16,12 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+p, .description {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
 }
 
 #container {
@@ -37,9 +44,13 @@ button {
     border: none;
     color: #FF5E84;
     background-color: transparent;
+    font-size: 14px;
     font-weight: bold;
+    line-height: 18px;
+    letter-spacing: 0.2px;
     cursor: pointer;
     outline: none;
+
 }
 
 button:hover {
@@ -67,6 +78,20 @@ button.fat:hover {
 
 footer {
     text-align: center;
+    color: #777;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+}
+
+footer a {
+    color: #777;
+}
+
+footer a:hover {
+    color: #FF5E84;
+    opacity: 0.7;
 }
 
 .idea {
