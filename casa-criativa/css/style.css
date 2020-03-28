@@ -1,7 +1,14 @@
+
+/* Global */
+
 body {
     font-family: 'Montserrat', sans-serif;
     background: #eee;
     margin: 0;
+}
+
+body.hideScrool {
+    overflow: hidden;
 }
 
 .hide {
@@ -24,6 +31,30 @@ p, .description {
     letter-spacing: 0.1px;
 }
 
+.button {
+    color: #fff;
+    background: #FF5E84;
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 16px rgba(255, 0, 92, 0.16);
+}
+
+.button:hover {
+    background-color: #0984e3;
+    text-decoration: none;
+    transition: 400ms;
+}
+
+
+/* Padrão */
+
 #container {
     width: 90%;
     max-width: 980px;
@@ -33,7 +64,7 @@ p, .description {
 
  #intro {
      width: 300px;
-     margin-right: 20px;
+     margin-right: 64px;
  }
  
 main {
@@ -61,19 +92,6 @@ button:hover {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 32px;
-}
-
-button.fat {
-    color: #fff;
-    background: #FF5E84;
-    width: 150px;
-    height: 40px;
-    border-radius: 6px;
-    box-shadow: 0 8px 16px rgba(255, 0, 92, 0.16);
-}
-
-button.fat:hover {
-    text-decoration: none;
 }
 
 footer {
@@ -129,14 +147,19 @@ footer a:hover {
     background: #FF5E84;
     position: absolute;
     top: 0;
-    width: 100vw;
-    height: 100vw;
+    bottom: 0;
+    right: 0;
+    left: 0;
     display: flex;
     justify-content: center;
 }
 
+#modal.addScroll {
+    overflow: auto;
+}
+
 #modal .content {
-    margin-top: 128px;
+    margin-top: 15%;
     color: #fff;
 }
 
@@ -148,7 +171,7 @@ footer a:hover {
 #modal form {
     width: 80%;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0 auto 15%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
@@ -248,27 +271,13 @@ form button:hover {
     color: #522825;
 }
 
+#page-ideas nav li a.button {
+    color: #fff;
+}
+
 #page-ideas nav li:last-child {
     margin: 0;
-    width: 150px;
-    height: 40px;
-    background-color: #FF5E84;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#page-ideas nav li:last-child:hover {
-    background-color: #0984e3;
-    transition: 400ms;
-}
-
-#page-ideas nav li:last-child a {
-    color: #fff;
-    font-size: 14px;
-    font-weight: bold;
-    text-decoration: none;
+    
 }
 
 section#title {
