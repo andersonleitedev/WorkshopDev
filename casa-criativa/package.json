@@ -8,6 +8,9 @@
     "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Anderson Leite",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
