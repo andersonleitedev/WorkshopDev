@@ -5,14 +5,20 @@ const server = express();
 // configurar arquivos estaticos(css, scripts, imagens)
 server.use(express.static("public"));
 
+// configuração do nunjucks
+const nunjucks = require("nunjucks");
+nunjucks.configure("views", {
+    express: server,
+});
+
 // criei uma rota /
 // e capturo o pedido do cliente para responder
 server.get("/", function(req, res) {
-    return res.sendFile(__dirname +"/index.html");
+    return res.render("index.html");
 });
 
 server.get("/ideias", function(req, res) {
-    return res.sendFile(__dirname +"/ideias.html");
+    return res.render("ideias.html");
 });
 
 // liguei o servidor na porta 3000
