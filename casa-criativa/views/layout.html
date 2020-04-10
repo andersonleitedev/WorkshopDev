@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Casa Criativa - Ideias para momentos de confinamento</title>  
+    
+    {% block title %} 
+        <title>Casa Criativa - Ideias para momentos de confinamento</title>  
+    {% endblock %}
+    
     {% include "head.html" %}
 </head>
 
-<body>
+<body id="{{bodyId}}">
     
     <div id="container">
 
