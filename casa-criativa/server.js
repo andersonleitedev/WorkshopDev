@@ -30,6 +30,20 @@ const ideas = [
         category: "Saúde",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum esse quibusdam ratione.",
         url: "https://www.exercicioemcasa.com.br/"
+    },
+    {
+        img: "https://image.flaticon.com/icons/svg/1157/1157969.svg",
+        title: "Pintura",
+        category: "Criatividade",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum esse quibusdam ratione.",
+        url: "https://www.colorir.com/"
+    },
+    {
+        img: "https://image.flaticon.com/icons/svg/2755/2755352.svg",
+        title: "Gravar videos",
+        category: "Criatividade",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum esse quibusdam ratione.",
+        url: "https://www.youtube.com/"
     }
 ]
 
